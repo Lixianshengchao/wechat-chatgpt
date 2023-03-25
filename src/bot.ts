@@ -23,7 +23,7 @@ enum MessageType {
   Video = 15, // Video(4), Video(43)
   Post = 16, // Moment, Channel, Tweet, etc
 }
-const SINGLE_MESSAGE_MAX_SIZE = 500;
+const SINGLE_MESSAGE_MAX_SIZE = 2500;
 type Speaker = RoomImpl | ContactImpl;
 interface ICommand{
   name:string;
